@@ -28,6 +28,10 @@ export default function Home() {
                 <Link href="/week6" className="text-blue-500 hover:underline hover:text-blue-600">
                     Week 6
                 </Link>
+                <br/>
+                <Link href="/week7" className="text-blue-500 hover:underline hover:text-blue-600">
+                    Week 7
+                </Link>
             </div>
         </main>
     );
