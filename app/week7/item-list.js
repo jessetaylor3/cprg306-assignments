@@ -48,7 +48,7 @@ const ItemList = ({ items, onItemSelect }) => {
                         quantity={item.quantity}
                         category={item.category}
                         index={index + 1}
-                        onSelect={() => handleItemSelect(item)}
+                        onSelect={() => handleItemSelect(item.name)}
                     />
                 ))}
             </ul>
